@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Flutter SQLite")),
+      appBar: AppBar(title: Text("Doguinhos")),
       body: FutureBuilder<List<Dog>>(
         future: DogsProvider.db.getAllDogs(),
         builder: (BuildContext context, AsyncSnapshot<List<Dog>> snapshot) {
